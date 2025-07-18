@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin:0%;
+    padding: 0%;
+
+}
+body{
+    background-color: lightgray
+}
+
+header{
+    background-color: rgba(157, 155, 155, 0.952);
+}
+
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: none;
+}
+ul{
+    list-style-type: none;
+}
+
+ a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid white;
+}
+a:hover{
+    background-color: gray;
+}
+
+#burguer{
+    background-color: rgb(27, 27, 27);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+main{
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+main h2{
+    padding-bottom: 20px;
+}
+main p{
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 20px;
+}
